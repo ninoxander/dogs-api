@@ -19,3 +19,4 @@ app = FastAPI(
 
 app.include_router(caracteristicas.router, prefix="/api", tags=["Características"])
 app.include_router(caracteristicas.router, prefix="/api", tags=["Razas"])
+app.include_router(caracteristicas.router, prefix="/api", tags=["Usuarios"])
